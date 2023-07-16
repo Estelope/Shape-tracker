@@ -1,4 +1,9 @@
+import './css/styles.css';
+// const Triangle = require('./triangle.js').triangleModule;
+//sample old school import
 
+//import { Triangle } from './triangle.js';
+//sample  import 
 
 //written for default import syntax
 import Triangle from './triangle.js';
@@ -21,8 +26,3 @@ window.addEventListener("load", function() {
 });
 
 
-// const Triangle = require('./triangle.js').triangleModule;
-//sample old school import
-
-//import { Triangle } from './triangle.js';
-//sample  import 
