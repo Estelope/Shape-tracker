@@ -1,3 +1,5 @@
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 // const Triangle = require('./triangle.js').triangleModule;
 //sample old school import
@@ -10,6 +12,7 @@ import Triangle from './triangle.js';
 //ui
 function handleTriangleForm() {
   event.preventDefault();
+  
   document.querySelector('#response').innerText = null;
   const length2 = parseInt(document.querySelector('#length2').value);
   const length1 = parseInt(document.querySelector('#length1').value);
